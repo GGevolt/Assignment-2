@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+.home_inter{
+	background-image: url(../../myimg/wallpaperad1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+body{
+	background-color:#CCCCCC;
+	font-family: 'PT Mono', monospace;
+	font-size:12px;
+	color:rgb(255, 255, 255);
+}
+
+h3{
+	color:#ffffff;
+}
+
+a{
+	color:#325793;
+	text-decoration:none;
+	font-family: 'PT Mono', monospace;
+}
+
+a:hover{
+	color:#FFF;
+}
+
+img{
+	border:none;
+}
+
+.copyright{
+	text-align:right;
+	font-size:11px;
+	color:rgb(74, 224, 9);
+	margin-top: 30% auto;
+}
+
+.displaytable tr td{
+	border:solid #b9adaa 2px;
+}
+
+.displaytable #dis_cus a{
+	color: rgb(34, 255, 0);
+}
+
+.titletext{
+	color:#ffffff;
+	font-size:13px;
+	
+}
+
+#right_aline{
+	text-align:right;
+}
+
+.frame {
+	margin: 0 auto;
+	width: fit-content;
+}
+
+.menupanel{
+	overflow: hidden;
+	background-color:#ffffff;
+	border-radius: 8px;
+}
+
+.menupanel a:hover{
+	color: #041cb5 ;
+	background-color: #000000;
+	background-size: cover;
+}
+
+.menupanel .btnbg{
+	float: left;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+	font-size: 17px;
+	border-right: #041cb5 solid 1px;
+	
+
+}
+
+
+
+.mainbody{
+	float:left;
+	background-color:#201e1c;
+	width:550px auto;
+	height: 352px auto;
+	padding-right: 10px;
+	border-radius: 10px;
+}
+
+.content{
+	margin-left:10px;
+	margin-top:10px;
+}
+
+.space{
+	height:20px;
+}
+
+.login{
+	margin:0 auto;
+	width: 300px;
+}
+
+.box{
+	border:3px ridge #000000;
+	border-radius: 10px;
+	background-color: rgb(23, 111, 188);
+}
+
+.box #username{
+	background-color: rgb(255, 255, 255);
+}
+
+.box #password{
+	background-color: rgb(255, 255, 255);
+}
+
+.ad_log{
+	background-image: url(../../myimg/wallpager.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.login #logo{
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+

@@ -1,0 +1,36 @@
+
+<?
+	require_once ('lib/function.php');
+
+	$sql = "SELECT * FROM products ORDER BY productid desc";
+	$rowcount = getRowCount($sql);
+	$row = getData($sql);
+
+?> 
+    <div class="submenu">
+    <div class="menubg1">
+    
+    <div class="menutitle">
+    <div class="text">
+    <div class="bullet">
+    </div>
+    <div class="text2">
+    <strong>FIND PRODUCTS</strong></div>
+    </div>
+    </div>
+	
+    <div class="findform">
+    	<BR />
+    	<form method="post" action="?page=productlist&cart=<? echo($GLOBALS['cart']) ?>">
+        <input type="search" name="find" id="find" placeholder="Search Here..." title="Search" >
+        <button type="submit" class="search-button">
+        <img src="Assign/searchglass.png" alt=""/>
+        <br />
+        <br/>
+        </form>
+	</div>
+    
+	</div>
+    
+    </div>
+
